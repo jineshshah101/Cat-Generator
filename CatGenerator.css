@@ -1,0 +1,43 @@
+/*Designing the big container. Giving it border and centering it*/
+
+.CatContainer{
+    border: 1px solid red;
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Getting a border for HeaderCat div*/
+
+.HeaderCat{
+    border: 1px solid orange;
+}
+/* Bolding h1 element*/
+
+.HeaderCat h1{
+    font-weight: bold;
+}
+
+/*For the button div*/
+
+.CatButton{
+    display: flex;
+    padding: 10px;
+    justify-content: space-evenly;
+}
+
+/*Using the Flexbox here*/
+
+.CatFlex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border: 1px solid blue;
+}
+
+/*Styling for the images to tell them apart*/
+
+.CatFlex img{
+    margin: 10px;
+    box-shadow: 0px 10 px 60 px rgba(0, 0, 0, 0.7);
+}

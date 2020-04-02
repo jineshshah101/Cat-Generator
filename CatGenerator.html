@@ -1,0 +1,39 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Using Boostrap style from online-->
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="CatGenerator.css">
+    <title>Cat Generator</title>
+</head>
+<body>
+    <!--Everything will be within a container-->
+
+    <div class="CatContainer">
+
+        <!-- The Main Header inside a div class-->
+
+        <div class="HeaderCat">
+            <h1>Cat Generator</h1>
+        </div>
+
+        <!-- Button inside a class for margin purposes-->
+        
+        <div class="CatButton">
+
+            <!-- Button created to generate cats itself-->
+        
+            <button class="btn btn-success" id="GenCat" onclick="CreateCat()">Generate Cat</button>
+        </div>
+        <!-- Designed for the Flexbox. Where all the images where be-->
+
+        <div class="CatFlex" id="cat">
+            
+        </div>
+    </div>
+    <script src="CatGenerator.js"></script>
+</body>
+</html>
